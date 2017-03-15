@@ -14,15 +14,12 @@ def getSauce():
 def getPepperoni():
     return '%d pepperoni slices' % random.randrange(3, 10)
 
-def getPepperoni():
-    return '%d pepperoni slices' % random.randrange(3, 10)
 
 def getIngredients():
     return [
         getPepperoni(),
         getCheese(),
-        getSauce(),
-        getPepperoni()
+        getSauce()
     ]
 
 def printPizza():
